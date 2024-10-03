@@ -1,4 +1,6 @@
 maskrcnn/
 dataset/
 *.txt
-
+output/
+model/
+__pycache__
