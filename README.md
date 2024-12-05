@@ -37,12 +37,11 @@ Through transfer learning and extensive model optimization, the project has made
     git clone https://github.com/SaniaE/maskrcnn-petrol-pump-segmentation.git
     cd path/to/repo/clone
     ```
-2. Create and activate a new virtual enviornment
+2. Create and activate a new conda enviornment
 
     ```bash
-    python -m venv <environment_name>
-    .\<environment_name>\Scripts\activate   # For Windows
-    source <environment_name>/bin/activate  # For macOS/Linux
+    conda create --name <environment_name> python=3.7
+    conda activate <environment_name>
     ```
 3. Add virtual environment to the Python Kernel 
 
